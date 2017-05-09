@@ -133,7 +133,7 @@ else()
   set(CMAKE_BUILD_TYPE "${CMAKE_BUILD_TYPE}" CACHE STRING
     "Choose the type of build, options are: None Debug Release RelWithDebInfo MinSizeRel Coverage."
     FORCE)
-  add_cxx_compiler_flag(--coverage COVERAGE)
+  #add_cxx_compiler_flag(--coverage COVERAGE)
 endif()
 
 if (BENCHMARK_USE_LIBCXX)
